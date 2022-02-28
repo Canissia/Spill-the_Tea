@@ -1,0 +1,172 @@
+
+/* container that holds flip card divs */
+.container {
+    width: 100%;
+    height: 100%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Noto Serif Display', serif;
+}
+
+.header {
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+
+}
+
+body {
+    background-color: #edede9;
+    font-family: 'Noto Serif Display', sans-serif;
+    color: #283618;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.main-text{
+    margin: 5px;
+    font-weight:600;
+}
+
+/* The flip card container*/
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 400px;
+    min-width: 340px;
+    perspective: 1000px;
+    flex-basis: 400px;
+    flex-grow: 2;
+
+  }
+  
+  /* Position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #edede9;
+    color: black;
+    height: 400px;
+  }
+
+.low {
+    color: blue;
+    font-weight: bolder;
+}
+
+.medium {
+    color: orange;
+    font-weight: bolder;
+}
+
+.high {
+    color: red;
+    font-weight: bolder;
+}
+
+.prep {
+    padding-top: 1px;
+    color: #cfe1b9;
+  }
+
+  /* Style the back side */
+.flip-card-back {
+    background-color: #7f5539;
+    color: #fefae0;
+    transform: rotateY(180deg);
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+    font-size: 1.0rem;
+  }
+
+  .flip-card-back h2 {
+      color: black;
+  }
+
+  .flip-card-back p {
+      font-size: 1rem;
+  }
+
+.image {
+    width: 300px; /* width of container */
+    height: 300px; /* height of container */
+    object-fit: cover;
+}
+
+
+.footer {
+  width: 95%;
+  height: 60%;
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #a4ac86;
+  color: #fefae0;
+  font-size: 1.5rem;
+  padding-left: 20px;
+  padding-right: 30px
+}
+
+
+/* Style all font awesome icons */
+.fa {
+  margin-top: 15px;
+  padding: 10px 10px;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.info {
+  width: 33%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
