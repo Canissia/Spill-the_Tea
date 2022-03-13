@@ -3,7 +3,7 @@ This CSS/HTML project was inspired by my lifelong love for tea. Specifically, my
 
 My goal was to make an interactive one-page app that displays both Tea type and Preparation Instructions.
 
-The page includes three cards that flip over with hoover effect. I googled how to achieve the ‘flip’ animation. 
+The page includes three cards that flip over with hover effect. I googled how to achieve the ‘flip’ animation. 
 
 I really enjoyed making this 6 hour project. I think the overall design: calm colors, smooth transition, and centeredness is the embodiment of “Tea Time”. It caused a lot of experience in flex-box as the page is responsive to different resolutions.
 
