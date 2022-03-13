@@ -1,18 +1,11 @@
-# Spill-the_Tea
-HTML and CSS based project
-HTML/CSS focused. 
+Spill the Tea
+This CSS/HTML project was inspired by my lifelong love for tea. Specifically, my increased intake of tea while learning how to code. I love variety. Chai tea lead to Matcha tea to Herbal teas, each with their own preparation method. To better keep things straight I made a page that displays preparation instructions for three types of tea.
 
-💻 This project was heavy on the CSS and classes. 
-I used flex-box to space the cards and footer information. 
-There are also break points when then screen width is reduced. 
-I used inline styling on one item: Github link.
+My goal was to make an interactive one-page app that displays both Tea type and Preparation Instructions.
 
+The page includes three cards that flip over with hoover effect. I googled how to achieve the ‘flip’ animation. 
 
-***Interactive***
-🫖 Select your tea type (black, green, herbal). 
-🫖 There are three cards displayed. 
-🫖 One side is an image of the tea blend, second side is the tea type, preparation instructions and caffeine level. 
-🫖 Card flips over to display card-back when cursor comes into contact.
-🫖 When leaving the area the cards flip to their original position. 
-  
-The footer is displayed at the bottom with contact information, credits and social media links. 
+I really enjoyed making this 6 hour project. I think the overall design: calm colors, smooth transition, and centeredness is the embodiment of “Tea Time”. It caused a lot of experience in flex-box as the page is responsive to different resolutions.
+
+The footer is displayed at the bottom with contact information, credits and social media links. I used bootstrap for social media links.
+
